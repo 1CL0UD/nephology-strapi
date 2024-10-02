@@ -25,6 +25,11 @@
       "relation": "manyToOne",
       "target": "api::novel.novel",
       "inversedBy": "chapters"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Title",
+      "required": true
     }
   }
 }
